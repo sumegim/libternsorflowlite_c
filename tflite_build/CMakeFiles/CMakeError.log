@@ -1,0 +1,124 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9eed9/fast && /usr/bin/make  -f CMakeFiles/cmTC_9eed9.dir/build.make CMakeFiles/cmTC_9eed9.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eed9.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -MD -MT CMakeFiles/cmTC_9eed9.dir/src.c.o -MF CMakeFiles/cmTC_9eed9.dir/src.c.o.d -o CMakeFiles/cmTC_9eed9.dir/src.c.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9eed9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eed9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9eed9.dir/src.c.o -o cmTC_9eed9 
+/usr/bin/ld: CMakeFiles/cmTC_9eed9.dir/src.c.o: in function `main':
+src.c:(.text+0x28): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x30): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x38): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x44): undefined reference to `pthread_join'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_9eed9.dir/build.make:100: cmTC_9eed9] Error 1
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_9eed9/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76508/fast && /usr/bin/make  -f CMakeFiles/cmTC_76508.dir/build.make CMakeFiles/cmTC_76508.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76508.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -MD -MT CMakeFiles/cmTC_76508.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_76508.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_76508.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76508.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_76508.dir/CheckFunctionExists.c.o -o cmTC_76508  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_76508.dir/build.make:100: cmTC_76508] Error 1
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_76508/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b97f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_b97f3.dir/build.make CMakeFiles/cmTC_b97f3.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b97f3.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -fPIE   -Wlogical-op -MD -MT CMakeFiles/cmTC_b97f3.dir/src.cxx.o -MF CMakeFiles/cmTC_b97f3.dir/src.cxx.o.d -o CMakeFiles/cmTC_b97f3.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_b97f3.dir/build.make:79: CMakeFiles/cmTC_b97f3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b97f3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9846b/fast && /usr/bin/make  -f CMakeFiles/cmTC_9846b.dir/build.make CMakeFiles/cmTC_9846b.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9846b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd981 -MD -MT CMakeFiles/cmTC_9846b.dir/src.cxx.o -MF CMakeFiles/cmTC_9846b.dir/src.cxx.o.d -o CMakeFiles/cmTC_9846b.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd981'
+make[1]: *** [CMakeFiles/cmTC_9846b.dir/build.make:79: CMakeFiles/cmTC_9846b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_9846b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2511a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2511a.dir/build.make CMakeFiles/cmTC_2511a.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2511a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd2304 -MD -MT CMakeFiles/cmTC_2511a.dir/src.cxx.o -MF CMakeFiles/cmTC_2511a.dir/src.cxx.o.d -o CMakeFiles/cmTC_2511a.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_2511a.dir/build.make:79: CMakeFiles/cmTC_2511a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_2511a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/libternsorflowlite_c/tflite_build/_deps/eigen-build/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "/home/ubuntu/libternsorflowlite_c/tflite_build/_deps/eigen-build/blas/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin

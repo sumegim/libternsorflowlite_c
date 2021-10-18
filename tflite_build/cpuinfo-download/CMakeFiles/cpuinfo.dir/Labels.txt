@@ -1,0 +1,14 @@
+# Target labels
+ cpuinfo
+# Source files and their labels
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo-complete.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-build.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-configure.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-download.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-install.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-mkdir.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-patch.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-test.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-update.rule

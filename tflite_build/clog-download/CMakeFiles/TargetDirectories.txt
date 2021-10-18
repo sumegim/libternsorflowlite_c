@@ -1,0 +1,3 @@
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/edit_cache.dir
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/clog.dir

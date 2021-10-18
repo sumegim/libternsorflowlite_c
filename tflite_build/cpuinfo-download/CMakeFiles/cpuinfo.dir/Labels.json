@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/CMakeFiles/cpuinfo-complete.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-build.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-configure.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-download.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-install.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-mkdir.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-patch.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-test.rule"
+		},
+		{
+			"file" : "/home/ubuntu/libternsorflowlite_c/tflite_build/cpuinfo-download/cpuinfo-prefix/src/cpuinfo-stamp/cpuinfo-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpuinfo"
+		],
+		"name" : "cpuinfo"
+	}
+}

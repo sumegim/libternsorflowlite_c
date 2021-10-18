@@ -1,0 +1,14 @@
+# Target labels
+ clog
+# Source files and their labels
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/clog
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/clog.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/CMakeFiles/clog-complete.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-build.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-configure.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-download.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-install.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-mkdir.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-patch.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-test.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/clog-download/clog-prefix/src/clog-stamp/clog-update.rule

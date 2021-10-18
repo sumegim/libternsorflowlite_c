@@ -1,0 +1,33 @@
+_deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o: \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/flags/internal/commandlineflag.cc \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/flags/internal/commandlineflag.h \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/config.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/limits.h \
+  /usr/include/limits.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/cstddef \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/c++config.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/__stddef_max_align_t.h \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/options.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/ciso646 \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/policy_checks.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/any \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/optional \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/variant \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/string_view \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/internal/fast_type_id.h

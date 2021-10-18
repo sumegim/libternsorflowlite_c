@@ -1,0 +1,3 @@
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/edit_cache.dir
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/psimd.dir

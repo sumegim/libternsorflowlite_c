@@ -1,0 +1,14 @@
+# Target labels
+ psimd
+# Source files and their labels
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/psimd
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/psimd.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/CMakeFiles/psimd-complete.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-build.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-configure.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-download.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-install.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-mkdir.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-patch.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-test.rule
+/home/ubuntu/libternsorflowlite_c/tflite_build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-update.rule

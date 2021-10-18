@@ -1,0 +1,836 @@
+The system is: Linux - 5.4.0-1044-raspi - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68d1f/fast && /usr/bin/make  -f CMakeFiles/cmTC_68d1f.dir/build.make CMakeFiles/cmTC_68d1f.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-12/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target aarch64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/llvm-12/lib/clang/12.0.0/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_68d1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68d1f.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -o cmTC_68d1f 
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_68d1f /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9 -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/usr/lib/llvm-12/lib/clang/12.0.0/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/llvm-12/lib/clang/12.0.0/include] ==> [/usr/lib/llvm-12/lib/clang/12.0.0/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/usr/lib/llvm-12/lib/clang/12.0.0/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_68d1f/fast && /usr/bin/make  -f CMakeFiles/cmTC_68d1f.dir/build.make CMakeFiles/cmTC_68d1f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Ubuntu clang version 12.0.0-3ubuntu1~20.04.4]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm-12/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target aarch64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/llvm-12/lib/clang/12.0.0/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_68d1f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68d1f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -o cmTC_68d1f ]
+  ignore line: [Ubuntu clang version 12.0.0-3ubuntu1~20.04.4]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_68d1f /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9 -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_68d1f] ==> ignore
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..]
+    arg [-L/usr/lib/llvm-12/bin/../lib] ==> dir [/usr/lib/llvm-12/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_68d1f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o] ==> [/usr/lib/aarch64-linux-gnu/crt1.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o] ==> [/usr/lib/gcc/aarch64-linux-gnu/9/crtbegin.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o] ==> [/usr/lib/gcc/aarch64-linux-gnu/9/crtend.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-12/bin/../lib] ==> [/usr/lib/llvm-12/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/crt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/9/crtbegin.o;/usr/lib/gcc/aarch64-linux-gnu/9/crtend.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/9;/usr/lib/aarch64-linux-gnu;/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/llvm-12/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9f27/fast && /usr/bin/make  -f CMakeFiles/cmTC_e9f27.dir/build.make CMakeFiles/cmTC_e9f27.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-12/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target aarch64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9
+ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9
+ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward
+ /usr/local/include
+ /usr/lib/llvm-12/lib/clang/12.0.0/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_e9f27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f27.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9f27 
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e9f27 /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9 -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9]
+    add: [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9]
+    add: [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward]
+    add: [/usr/local/include]
+    add: [/usr/lib/llvm-12/lib/clang/12.0.0/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9] ==> [/usr/include/aarch64-linux-gnu/c++/9]
+  collapse include dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/llvm-12/lib/clang/12.0.0/include] ==> [/usr/lib/llvm-12/lib/clang/12.0.0/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/aarch64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/local/include;/usr/lib/llvm-12/lib/clang/12.0.0/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9f27/fast && /usr/bin/make  -f CMakeFiles/cmTC_e9f27.dir/build.make CMakeFiles/cmTC_e9f27.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Ubuntu clang version 12.0.0-3ubuntu1~20.04.4]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm-12/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9 -internal-isystem /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target aarch64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9]
+  ignore line: [ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9]
+  ignore line: [ /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/llvm-12/lib/clang/12.0.0/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_e9f27]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f27.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9f27 ]
+  ignore line: [Ubuntu clang version 12.0.0-3ubuntu1~20.04.4]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e9f27 /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9 -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e9f27] ==> ignore
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..]
+    arg [-L/usr/lib/llvm-12/bin/../lib] ==> dir [/usr/lib/llvm-12/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_e9f27.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o]
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crt1.o] ==> [/usr/lib/aarch64-linux-gnu/crt1.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtbegin.o] ==> [/usr/lib/gcc/aarch64-linux-gnu/9/crtbegin.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/crtend.o] ==> [/usr/lib/gcc/aarch64-linux-gnu/9/crtend.o]
+  collapse obj [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-12/bin/../lib] ==> [/usr/lib/llvm-12/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/crt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/9/crtbegin.o;/usr/lib/gcc/aarch64-linux-gnu/9/crtend.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/9;/usr/lib/aarch64-linux-gnu;/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/llvm-12/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0b8aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b8aa.dir/build.make CMakeFiles/cmTC_0b8aa.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b8aa.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -MD -MT CMakeFiles/cmTC_0b8aa.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0b8aa.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0b8aa.dir/CheckIncludeFile.c.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b8aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b8aa.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0b8aa.dir/CheckIncludeFile.c.o -o cmTC_0b8aa 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a76a/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a76a.dir/build.make CMakeFiles/cmTC_0a76a.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a76a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -MD -MT CMakeFiles/cmTC_0a76a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_0a76a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_0a76a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a76a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a76a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0a76a.dir/CheckFunctionExists.c.o -o cmTC_0a76a  -lpthread 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75fb6/fast && /usr/bin/make  -f CMakeFiles/cmTC_75fb6.dir/build.make CMakeFiles/cmTC_75fb6.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75fb6.dir/src.cxx.o
+/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -fPIE -MD -MT CMakeFiles/cmTC_75fb6.dir/src.cxx.o -MF CMakeFiles/cmTC_75fb6.dir/src.cxx.o.d -o CMakeFiles/cmTC_75fb6.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_75fb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75fb6.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_75fb6.dir/src.cxx.o -o cmTC_75fb6 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f575a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f575a.dir/build.make CMakeFiles/cmTC_f575a.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f575a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -fPIE   -Werror -MD -MT CMakeFiles/cmTC_f575a.dir/src.cxx.o -MF CMakeFiles/cmTC_f575a.dir/src.cxx.o.d -o CMakeFiles/cmTC_f575a.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f575a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f575a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f575a.dir/src.cxx.o -o cmTC_f575a 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_418ce/fast && /usr/bin/make  -f CMakeFiles/cmTC_418ce.dir/build.make CMakeFiles/cmTC_418ce.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_418ce.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -Werror -fPIE   -pedantic -MD -MT CMakeFiles/cmTC_418ce.dir/src.cxx.o -MF CMakeFiles/cmTC_418ce.dir/src.cxx.o.d -o CMakeFiles/cmTC_418ce.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_418ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_418ce.dir/link.txt --verbose=1
+/usr/bin/c++  -Werror CMakeFiles/cmTC_418ce.dir/src.cxx.o -o cmTC_418ce 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7adaa/fast && /usr/bin/make  -f CMakeFiles/cmTC_7adaa.dir/build.make CMakeFiles/cmTC_7adaa.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7adaa.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -pedantic -Werror -fPIE   -Wall -MD -MT CMakeFiles/cmTC_7adaa.dir/src.cxx.o -MF CMakeFiles/cmTC_7adaa.dir/src.cxx.o.d -o CMakeFiles/cmTC_7adaa.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7adaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7adaa.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Werror CMakeFiles/cmTC_7adaa.dir/src.cxx.o -o cmTC_7adaa 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2e864/fast && /usr/bin/make  -f CMakeFiles/cmTC_2e864.dir/build.make CMakeFiles/cmTC_2e864.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e864.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -pedantic -Wall -Werror -fPIE   -Wextra -MD -MT CMakeFiles/cmTC_2e864.dir/src.cxx.o -MF CMakeFiles/cmTC_2e864.dir/src.cxx.o.d -o CMakeFiles/cmTC_2e864.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2e864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e864.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Werror CMakeFiles/cmTC_2e864.dir/src.cxx.o -o cmTC_2e864 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21415/fast && /usr/bin/make  -f CMakeFiles/cmTC_21415.dir/build.make CMakeFiles/cmTC_21415.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21415.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -pedantic -Wall -Wextra -Werror -fPIE   -Wundef -MD -MT CMakeFiles/cmTC_21415.dir/src.cxx.o -MF CMakeFiles/cmTC_21415.dir/src.cxx.o.d -o CMakeFiles/cmTC_21415.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_21415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21415.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Werror CMakeFiles/cmTC_21415.dir/src.cxx.o -o cmTC_21415 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6a73/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6a73.dir/build.make CMakeFiles/cmTC_c6a73.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6a73.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -pedantic -Wall -Wextra -Wundef -Werror -fPIE   -Wcast-align -MD -MT CMakeFiles/cmTC_c6a73.dir/src.cxx.o -MF CMakeFiles/cmTC_c6a73.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6a73.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c6a73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a73.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Werror CMakeFiles/cmTC_c6a73.dir/src.cxx.o -o cmTC_c6a73 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_532f7/fast && /usr/bin/make  -f CMakeFiles/cmTC_532f7.dir/build.make CMakeFiles/cmTC_532f7.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_532f7.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -fPIE   -Wchar-subscripts -MD -MT CMakeFiles/cmTC_532f7.dir/src.cxx.o -MF CMakeFiles/cmTC_532f7.dir/src.cxx.o.d -o CMakeFiles/cmTC_532f7.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_532f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_532f7.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror CMakeFiles/cmTC_532f7.dir/src.cxx.o -o cmTC_532f7 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2acf1/fast && /usr/bin/make  -f CMakeFiles/cmTC_2acf1.dir/build.make CMakeFiles/cmTC_2acf1.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2acf1.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -fPIE   -Wnon-virtual-dtor -MD -MT CMakeFiles/cmTC_2acf1.dir/src.cxx.o -MF CMakeFiles/cmTC_2acf1.dir/src.cxx.o.d -o CMakeFiles/cmTC_2acf1.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2acf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2acf1.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror CMakeFiles/cmTC_2acf1.dir/src.cxx.o -o cmTC_2acf1 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7274f/fast && /usr/bin/make  -f CMakeFiles/cmTC_7274f.dir/build.make CMakeFiles/cmTC_7274f.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7274f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -fPIE   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_7274f.dir/src.cxx.o -MF CMakeFiles/cmTC_7274f.dir/src.cxx.o.d -o CMakeFiles/cmTC_7274f.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7274f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7274f.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror CMakeFiles/cmTC_7274f.dir/src.cxx.o -o cmTC_7274f 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e0212/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0212.dir/build.make CMakeFiles/cmTC_e0212.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0212.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -fPIE   -Wpointer-arith -MD -MT CMakeFiles/cmTC_e0212.dir/src.cxx.o -MF CMakeFiles/cmTC_e0212.dir/src.cxx.o.d -o CMakeFiles/cmTC_e0212.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0212.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror CMakeFiles/cmTC_e0212.dir/src.cxx.o -o cmTC_e0212 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b14a7/fast && /usr/bin/make  -f CMakeFiles/cmTC_b14a7.dir/build.make CMakeFiles/cmTC_b14a7.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b14a7.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -fPIE   -Wwrite-strings -MD -MT CMakeFiles/cmTC_b14a7.dir/src.cxx.o -MF CMakeFiles/cmTC_b14a7.dir/src.cxx.o.d -o CMakeFiles/cmTC_b14a7.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b14a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b14a7.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror CMakeFiles/cmTC_b14a7.dir/src.cxx.o -o cmTC_b14a7 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_275aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_275aa.dir/build.make CMakeFiles/cmTC_275aa.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_275aa.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -fPIE   -Wformat-security -MD -MT CMakeFiles/cmTC_275aa.dir/src.cxx.o -MF CMakeFiles/cmTC_275aa.dir/src.cxx.o.d -o CMakeFiles/cmTC_275aa.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_275aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_275aa.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror CMakeFiles/cmTC_275aa.dir/src.cxx.o -o cmTC_275aa 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20630/fast && /usr/bin/make  -f CMakeFiles/cmTC_20630.dir/build.make CMakeFiles/cmTC_20630.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20630.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_20630.dir/src.cxx.o -MF CMakeFiles/cmTC_20630.dir/src.cxx.o.d -o CMakeFiles/cmTC_20630.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20630.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror CMakeFiles/cmTC_20630.dir/src.cxx.o -o cmTC_20630 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0901b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0901b.dir/build.make CMakeFiles/cmTC_0901b.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0901b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -fPIE   -Wenum-conversion -MD -MT CMakeFiles/cmTC_0901b.dir/src.cxx.o -MF CMakeFiles/cmTC_0901b.dir/src.cxx.o.d -o CMakeFiles/cmTC_0901b.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0901b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0901b.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror CMakeFiles/cmTC_0901b.dir/src.cxx.o -o cmTC_0901b 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e9f7/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e9f7.dir/build.make CMakeFiles/cmTC_5e9f7.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e9f7.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -fPIE   -Wc++11-extensions -MD -MT CMakeFiles/cmTC_5e9f7.dir/src.cxx.o -MF CMakeFiles/cmTC_5e9f7.dir/src.cxx.o.d -o CMakeFiles/cmTC_5e9f7.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e9f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e9f7.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror CMakeFiles/cmTC_5e9f7.dir/src.cxx.o -o cmTC_5e9f7 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8dca3/fast && /usr/bin/make  -f CMakeFiles/cmTC_8dca3.dir/build.make CMakeFiles/cmTC_8dca3.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8dca3.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -fPIE   -Wdouble-promotion -MD -MT CMakeFiles/cmTC_8dca3.dir/src.cxx.o -MF CMakeFiles/cmTC_8dca3.dir/src.cxx.o.d -o CMakeFiles/cmTC_8dca3.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8dca3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dca3.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror CMakeFiles/cmTC_8dca3.dir/src.cxx.o -o cmTC_8dca3 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb751/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb751.dir/build.make CMakeFiles/cmTC_eb751.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb751.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshadow  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -fPIE   -Wshadow -MD -MT CMakeFiles/cmTC_eb751.dir/src.cxx.o -MF CMakeFiles/cmTC_eb751.dir/src.cxx.o.d -o CMakeFiles/cmTC_eb751.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eb751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb751.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror CMakeFiles/cmTC_eb751.dir/src.cxx.o -o cmTC_eb751 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_953c9/fast && /usr/bin/make  -f CMakeFiles/cmTC_953c9.dir/build.make CMakeFiles/cmTC_953c9.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_953c9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -fPIE   -Wno-psabi -MD -MT CMakeFiles/cmTC_953c9.dir/src.cxx.o -MF CMakeFiles/cmTC_953c9.dir/src.cxx.o.d -o CMakeFiles/cmTC_953c9.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_953c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_953c9.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror CMakeFiles/cmTC_953c9.dir/src.cxx.o -o cmTC_953c9 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7828c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7828c.dir/build.make CMakeFiles/cmTC_7828c.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7828c.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -fPIE   -Wno-variadic-macros -MD -MT CMakeFiles/cmTC_7828c.dir/src.cxx.o -MF CMakeFiles/cmTC_7828c.dir/src.cxx.o.d -o CMakeFiles/cmTC_7828c.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7828c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7828c.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror CMakeFiles/cmTC_7828c.dir/src.cxx.o -o cmTC_7828c 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7c8a/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7c8a.dir/build.make CMakeFiles/cmTC_d7c8a.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7c8a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -fPIE   -Wno-long-long -MD -MT CMakeFiles/cmTC_d7c8a.dir/src.cxx.o -MF CMakeFiles/cmTC_d7c8a.dir/src.cxx.o.d -o CMakeFiles/cmTC_d7c8a.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d7c8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c8a.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror CMakeFiles/cmTC_d7c8a.dir/src.cxx.o -o cmTC_d7c8a 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5fb37/fast && /usr/bin/make  -f CMakeFiles/cmTC_5fb37.dir/build.make CMakeFiles/cmTC_5fb37.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fb37.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -fPIE   -fno-check-new -MD -MT CMakeFiles/cmTC_5fb37.dir/src.cxx.o -MF CMakeFiles/cmTC_5fb37.dir/src.cxx.o.d -o CMakeFiles/cmTC_5fb37.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5fb37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb37.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror CMakeFiles/cmTC_5fb37.dir/src.cxx.o -o cmTC_5fb37 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2f062/fast && /usr/bin/make  -f CMakeFiles/cmTC_2f062.dir/build.make CMakeFiles/cmTC_2f062.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f062.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -fPIE   -fno-common -MD -MT CMakeFiles/cmTC_2f062.dir/src.cxx.o -MF CMakeFiles/cmTC_2f062.dir/src.cxx.o.d -o CMakeFiles/cmTC_2f062.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f062.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror CMakeFiles/cmTC_2f062.dir/src.cxx.o -o cmTC_2f062 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27d30/fast && /usr/bin/make  -f CMakeFiles/cmTC_27d30.dir/build.make CMakeFiles/cmTC_27d30.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27d30.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -fPIE   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_27d30.dir/src.cxx.o -MF CMakeFiles/cmTC_27d30.dir/src.cxx.o.d -o CMakeFiles/cmTC_27d30.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_27d30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d30.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror CMakeFiles/cmTC_27d30.dir/src.cxx.o -o cmTC_27d30 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6eb6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6eb6.dir/build.make CMakeFiles/cmTC_d6eb6.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6eb6.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  -fPIE   -fopenmp -MD -MT CMakeFiles/cmTC_d6eb6.dir/src.cxx.o -MF CMakeFiles/cmTC_d6eb6.dir/src.cxx.o.d -o CMakeFiles/cmTC_d6eb6.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6eb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6eb6.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  CMakeFiles/cmTC_d6eb6.dir/src.cxx.o -o cmTC_d6eb6 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FARMHASH_HAS_BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d521f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d521f.dir/build.make CMakeFiles/cmTC_d521f.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d521f.dir/src.cxx.o
+/usr/bin/c++ -DFARMHASH_HAS_BUILTIN_EXPECT  -fPIE -MD -MT CMakeFiles/cmTC_d521f.dir/src.cxx.o -MF CMakeFiles/cmTC_d521f.dir/src.cxx.o.d -o CMakeFiles/cmTC_d521f.dir/src.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d521f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d521f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_d521f.dir/src.cxx.o -o cmTC_d521f 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char* argv[]) { return (int)__builtin_expect(0, 0); }
+Determining if the strtof_l exist passed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d36f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1d36f.dir/build.make CMakeFiles/cmTC_1d36f.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d36f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -MD -MT CMakeFiles/cmTC_1d36f.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_1d36f.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_1d36f.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_1d36f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d36f.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_1d36f.dir/CheckSymbolExists.cxx.o -o cmTC_1d36f 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtof_l
+  return ((int*)(&strtof_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull_l exist passed with the following output:
+Change Dir: /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_22aa8/fast && /usr/bin/make  -f CMakeFiles/cmTC_22aa8.dir/build.make CMakeFiles/cmTC_22aa8.dir/build
+make[1]: Entering directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22aa8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -MD -MT CMakeFiles/cmTC_22aa8.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_22aa8.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_22aa8.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_22aa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22aa8.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_22aa8.dir/CheckSymbolExists.cxx.o -o cmTC_22aa8 
+make[1]: Leaving directory '/home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/libternsorflowlite_c/tflite_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull_l
+  return ((int*)(&strtoull_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin

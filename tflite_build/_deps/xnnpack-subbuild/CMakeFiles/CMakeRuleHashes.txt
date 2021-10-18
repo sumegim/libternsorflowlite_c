@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+981db468573e4e9f3778f10ce78e5962 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-build
+cae60e218bdc6ed29589a72b4546c76d /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-configure
+fa7e15868e0c6ad123f141ff5721be15 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-download
+89f93653b37e0312a1e87a1f2409d773 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-install
+41bc82163741137d4fff82aa46e0f0a5 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-mkdir
+b89a9fa5437ad9bab3b4b1b71eb2976c /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-patch
+4be882dbd53debbba9f3aa14596350e4 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-test
+1ebe9cc817a3e1273a60f036acbe56f1 /home/ubuntu/libternsorflowlite_c/tflite_build/src/xnnpack-populate-stamp/xnnpack-populate-update
+5cea901e19430f5533b7d4d2148f61dd CMakeFiles/xnnpack-populate
+5a64a703a68bd1803679eef99e3da169 CMakeFiles/xnnpack-populate-complete

@@ -1,0 +1,41 @@
+_deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o: \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/strings/internal/utf8.cc \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/strings/internal/utf8.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/cstddef \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/c++config.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/__stddef_max_align_t.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/cstdint \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/config.h \
+  /usr/lib/llvm-12/lib/clang/12.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/options.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/ciso646 \
+  /home/ubuntu/libternsorflowlite_c/tflite_build/abseil-cpp/absl/base/policy_checks.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/any \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/optional \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/variant \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/9/../../../../include/c++/9/string_view
